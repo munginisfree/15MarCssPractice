@@ -1,0 +1,40 @@
+@import url('common.css');
+
+.wrap header{
+  background: gray;
+  opacity: 0.4;
+  z-index: 99999;
+  width: 100%;
+}
+.wrap header .inner-header {
+  border: 5px solid #000;
+  width: 100%;
+  float: left;
+  padding: 20px;
+  
+}
+.wrap .inner-header .logo{
+  border: 1px solid #000;
+  /* float: left; */
+}
+.wrap .inner-header .logo img{
+  border: 1px solid red;
+  width: 8%;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+}
+.wrap .inner-header .gnb{
+  border: 1px solid green;
+}
+.wrap .inner-header .gnb ul li{
+  float: left;
+  width: 6%;
+}
+.wrap .inner-header .tnb li{
+  float: left;
+  width: 10%;
+}
+.wrap .inner-header .gnb-moblie a i{
+  opacity: 0;
+} 
